@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <meta name="description" content="Survey form"> 
+    <meta name="keywords" content="web design, practice, survey form"> 
+    <meta name="author" content="Danielle Kaye"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <link rel="stylesheet" href="style/main.css"> 
+</head> 
+    <title>Survey Form | Online Rental Application</title>
+</head>
+<header>
+    
+    <h1><span style="text-decoration: underline;">Online Rental Application:</span></h1> 
+</header>
+<body class="bg-light"> 
+    <nav class="nav">
+        
+    </nav>
+   
+        <form novalidate> 
+            <fieldset class="container "> 
+                <legend>Application</legend> 
+
+                <p> Personal Information<svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"/>
+                  </svg></p>
+                
+                <div class="row mb-3" id="first-row"> 
+                    <div class="col-sm-4">
+                <label  class="form-label" for="fname">*First Name</label>
+                <input  class="form-control" type="text" id="fname" required>  
+            </div> 
+       
+            <div class="col-sm-4">
+                <label  class="form-label"for="lname">*Last Name</label>
+                <input class="form-control" type="text" id="lname" required> 
+            </div> 
+            <div class="col-sm-4">
+                <label class="form-label" for="birth-date">Date of Birth</label>
+                <input  class="form-control" type="date"> 
+            </div>
+            </div>  
+
+            <div class="row  mb-3" id="second-row"> 
+                <div class="col-md-4">    
+                <label for="gender-choice1">Gender</label> 
+                <select class="form-select form-select-sm"> 
+                    <option selected>Please select</option> 
+                    <option>Male</option>
+                    <option>Female</option>
+                    </select>
+                </div>
+                <div class="col-md-4"> 
+                <label for="marital-status">Martial Status</label>
+               <select class="form-select form-select-sm">
+                   <option selected>Please select</option>
+                   <option>Married</option>
+                   <option>Single</option>
+                   <option>Not say</option>
+               </select> 
+               </div> 
+               <div class="col-md-4"> 
+                <label>Identification</label>
+            <select class="form-select form-select-sm"> 
+                <option selected>Choose One</option>
+                <option>Drives Liscence</option>
+                <option>Passport</option>
+                <option>Birth Certificate</option>
+            </select>
+        </div>
+            </div> 
+            <div class="row mb-3" id="third-row"> 
+                <p>Contact Information <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-phone-vibrate" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" d="M10 3H6a1 1 0 0 0-1 1v8a1 1 0 0 0 1 1h4a1 1 0 0 0 1-1V4a1 1 0 0 0-1-1zM6 2a2 2 0 0 0-2 2v8a2 2 0 0 0 2 2h4a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H6z"/>
+                    <path fill-rule="evenodd" d="M8 12a1 1 0 1 0 0-2 1 1 0 0 0 0 2zM1.599 4.058a.5.5 0 0 1 .208.676A6.967 6.967 0 0 0 1 8c0 1.18.292 2.292.807 3.266a.5.5 0 0 1-.884.468A7.968 7.968 0 0 1 0 8c0-1.347.334-2.619.923-3.734a.5.5 0 0 1 .676-.208zm12.802 0a.5.5 0 0 1 .676.208A7.967 7.967 0 0 1 16 8a7.967 7.967 0 0 1-.923 3.734.5.5 0 0 1-.884-.468A6.967 6.967 0 0 0 15 8c0-1.18-.292-2.292-.807-3.266a.5.5 0 0 1 .208-.676zM3.057 5.534a.5.5 0 0 1 .284.648A4.986 4.986 0 0 0 3 8c0 .642.12 1.255.34 1.818a.5.5 0 1 1-.93.364A5.986 5.986 0 0 1 2 8c0-.769.145-1.505.41-2.182a.5.5 0 0 1 .647-.284zm9.886 0a.5.5 0 0 1 .648.284C13.855 6.495 14 7.231 14 8c0 .769-.145 1.505-.41 2.182a.5.5 0 0 1-.93-.364C12.88 9.255 13 8.642 13 8c0-.642-.12-1.255-.34-1.818a.5.5 0 0 1 .283-.648z"/>
+                  </svg></p>
+                <div class="col-md-6">
+                    <label class="form-label" for="mobile-phone">Mobile Phone</label>
+                    <input class="form-control" type="tel" id="mobile-phone">
+                    </div> 
+                <div class="col-md-6">
+                <label  class="form-label" for="email">*Email</label>
+                <input class="form-control" type="email" id="email" required>
+            </div> 
+            </div>
+                <div class="row mb-3" id="fourth-row"> 
+                    <p>Additional Information <svg width="2em" height="2em" viewBox="0 0 16 16" class="bi bi-pencil-square" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456l-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/>
+                        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/>
+                      </svg></p>
+                    <div class="col-md-6"> 
+                        Are you a smoker?
+                        <input type="checkbox" value="Yes" id="test" > 
+                        <label for="test">Yes</label> 
+                        <input type="checkbox"> 
+                        <label for="test">No</label> <br>
+                        Do you have pets?
+                        <input type="checkbox" id="pets"> 
+                        <label for="pets"> Yes</label> 
+                        <input  type="checkbox" id="pets"> 
+                        <label for="pets">No</label> 
+                        </div>   
+                    <div class="col-md-6">
+                    <label for="comments"> Additional Comments:</label> 
+                    <small>(This section is for any concerns, questions, or requests)</small>
+                    <textarea class="form-control" id="comments" placeholder="Additional Comments" style="text-align: start;">   
+                    </textarea>
+                    </div> 
+               </div>
+               <button class="btn btn-primary" type="submit">Submit form</button>
+            </fieldset>
+        </form>
+
+
+
+   
+    
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+
+</html>

@@ -1,0 +1,47 @@
+body{
+    background-image:url(/img/bg01.jpg);
+    background-size: cover;
+    position:relative;
+  background-position-x:left;
+
+}
+main{
+    background-color: rgb(236, 190, 236);
+    padding:5px;
+    height: 100vh;
+} 
+
+fieldset{
+    background-color: #f2f2f2;
+    height:100vh;
+    width: 100%;  
+
+}
+
+
+legend{
+    font-size:18px;
+}
+
+
+label{
+    padding: 5px; 
+    font-size: 16px;
+    font-weight: bold;
+}  
+
+
+input#fname:valid{
+    border-color: green;
+}
+
+
+label:hover{
+    text-decoration:underline;
+} 
+
+
+footer{
+    border-top:4px solid gray;
+    background-color: rgb(167, 158, 158);
+}
